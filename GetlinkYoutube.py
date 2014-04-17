@@ -1,10 +1,10 @@
 ###########################################################################
-# Author: CK01								                              #
-# Email: clarkkent.k41@gmail.com 					                      #
-# Github: github.com/KhanhNB						                      #
-# Python 2.7.x							                                  #
-# How to use: python GetlinkYoutube.py [link]                             #
-# Ex: python GetlinkYoutube.py http://www.youtube.com/watch?v=8mP5xOg7ijs #
+# Author: CK01								                              
+# Email: clarkkent.k41@gmail.com 					                      
+# Github: github.com/KhanhNB						                      
+# Python 2.7.x							                                  
+# How to use: python GetlinkYoutube.py [link]                             
+# Ex: python GetlinkYoutube.py http://www.youtube.com/watch?v=8mP5xOg7ijs 
 ###########################################################################
 
 import urllib2
