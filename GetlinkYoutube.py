@@ -14,10 +14,10 @@ import sys
 f = urllib2.urlopen(sys.argv[1])
 html1 = f.read()
 output = open('links.txt', 'wb')
-start = html1.find('ytplayer.config', 0, len(html1))
-end = html1.find('ytplayer.config.loaded', 0, len(html1))
-start = start + 18
-
+start = html1.find('ytplayer || {};ytplayer.config', 0, len(html1))
+end = html1.find(';ytplayer.config.loaded', 0, len(html1))
+start = start + 33
+#print(html1[start+33])
 html2 = html1[start:end]
 end = html2.find('function')
 end = end - 2
